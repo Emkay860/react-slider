@@ -1,0 +1,36 @@
+.marvel-slider {
+
+  &:focus {
+    .slider-handle {
+      box-shadow: none;
+    }
+  }
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .slider-handle {
+    top: -50px;
+    width: 135px;
+    height: 135px;
+    border-radius: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    transition: background-image 1s;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.marvel-slideHandle1 .slider-handle {
+    background-image: url('../images/marvel/spider2.png');
+  }
+
+  &.marvel-slideHandle2 .slider-handle {
+    background-image: url('../images/marvel/widow2.png');
+  }
+
+  &.marvel-slideHandle3 .slider-handle {
+    background-image: url('../images/marvel/hulk2.png');
+  }
+}
